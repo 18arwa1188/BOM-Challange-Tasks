@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style>
+      * {
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: none;
+        padding: 10px 15px
+      }
+      form , .container {
+        width: 50%;
+        padding: 25px; 
+        margin: 20px auto;
+        text-align: center;
+        background-color: #eee;
+        display: flex;
+        justify-content: space-between;
+      }
+      form input[type= "text"] {
+        width: 80%
+      }
+      form input[type= "submit"], .result input {
+        color: white;
+        background-color: red;
+        margin-left: 10px;
+      }
+      .result .container p {
+        width: 80%;
+        padding: 5px 15px;
+        margin: 0;
+        background-color: white;
+      }
+      .result .container input {
+        padding: 5px 15px
+      }
+    </style>
+  </head>
+  <body>
+    <form id="myForm">
+      <input type="text" name="text" id="text">
+      <input type="submit" id="submit" value="add">
+    </form>
+    <div class="result"></div>
+    <script src="script/main.js"></script>
+  </body>
+</html>
+  
